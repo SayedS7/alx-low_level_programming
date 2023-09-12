@@ -1,12 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /* main - entry point */
 
 /*description:false or true validation */
 
 /* Return: 0 (success) */
-int main(void)
+
+int main(void
 {
 	int n;
 
