@@ -1,24 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-/* main - entry point */
-
-/*description:false or true validation */
-
-/* Return: 0 (success) */
-
+/**
+ * main - entry point
+ * Description: 'print alphabet lowercase'
+ * Return: always 0
+*/
 int main(void)
 {
-        int n;
+	char ch;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        if (n > 0)
-                printf("%i is positive\n", n);
-        else if (n == 0)
-                printf("%i is zero\n", n);
-        else
-                printf("%i is negative\n", n);
-        return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
