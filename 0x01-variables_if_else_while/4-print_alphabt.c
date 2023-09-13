@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * Description 'prints the alphabet in lowercase, followed by a new line'
- * Return always 0
+ * Description: print all alphabet letrers except q and e
+ * Return: always 0
 */
 
 int main(void)
