@@ -7,21 +7,19 @@
 */
 int main(void)
 {
-	char ch = 'a';
-	char ch = 'A';
+	char lowerbet = 'a';
+	char alphabet = 'A';
 
-	/*prints a - z*/
-	while (ch <= 'z')
+	while (lowerbet <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(lowerbet);
+		lowerbet++;
 	}
 
-	/*print A - Z*/
-	while (ch <= 'Z')
+	while (alphabet <= 'Z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(alphabet);
+		alphabet++;
 	}
 	putchar('\n');
 
