@@ -21,7 +21,7 @@ int main(void)
 			digit += 39;
 		digit++;
 	}
-	puchar('\n');
+	putchar('\n');
 
 	return (0);
 }
